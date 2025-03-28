@@ -4,8 +4,6 @@ project(DocumentAngleDetection)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 
-set(OpenCV_DIR "C:/opencv/opencv/build")
-
 find_package(OpenCV REQUIRED)
 
 include_directories(include ${OpenCV_INCLUDE_DIRS})
